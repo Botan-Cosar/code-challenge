@@ -5,10 +5,10 @@
     "backend"
   ],
   "scripts": {
-    "dev": "concurrently npm:{frontend,backend}",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
     "frontend": "yarn workspace frontend dev",
     "backend": "yarn workspace backend dev",
-    "type-check": "yarn workspaces run type-check" 
+    "type-check": "yarn workspaces run type-check"
   },
   "devDependencies": {
     "concurrently": "^7.5.0"

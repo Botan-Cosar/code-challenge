@@ -1,0 +1,43 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background: #fbb59b;
+    overflow: hidden;
+}
+
+.no-outline {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.z-5 {
+    z-index: 5 !important;
+}
+
+.ml-n3rem {
+    margin-left: -3rem !important;
+}
+
+.rounded-pill-right {
+    border-top-right-radius: 50rem !important;
+    border-bottom-right-radius: 50rem !important;
+}
+
+.rounded-pill-left {
+    border-top-left-radius: 50rem !important;
+    border-bottom-left-radius: 50rem !important;
+}
+
+.top-10 {
+    top: 10px;
+}
+
+.end-10 {
+    right: 10px;
+}
