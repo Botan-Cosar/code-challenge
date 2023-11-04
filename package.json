@@ -5,6 +5,7 @@
     "backend"
   ],
   "scripts": {
+    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
     "frontend": "yarn workspace frontend dev",
     "backend": "yarn workspace backend dev",
