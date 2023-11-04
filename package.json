@@ -5,14 +5,13 @@
     "backend"
   ],
   "scripts": {
-    "start": "yarn && concurrently \"npm run frontend\" \"npm run backend\"",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\"",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
     "frontend": "yarn workspace frontend dev",
     "backend": "yarn workspace backend dev",
     "type-check": "yarn workspaces run type-check"
   },
   "dependencies": {
-    "concurrently": "^7.5.0",
-    "yarn": "^1.22.19"
+    "concurrently": "^7.5.0"
   }
 }
