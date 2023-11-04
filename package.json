@@ -11,7 +11,7 @@
     "backend": "yarn workspace backend dev",
     "type-check": "yarn workspaces run type-check"
   },
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^7.5.0"
   }
 }
