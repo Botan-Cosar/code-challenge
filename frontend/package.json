@@ -7,9 +7,7 @@
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
-    "@vitejs/plugin-react": "^2.2.0",
-    "typescript": "^4.8.4",
-    "vite": "^3.2.3"
+    "@vitejs/plugin-react": "^2.2.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -22,7 +20,9 @@
     "react-d3-cloud": "^1.0.6",
     "react-dom": "^18.2.0",
     "rxjs": "^7.8.1",
-    "zod": "^3.21.4"
+    "zod": "^3.21.4",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3"
   },
   "scripts": {
     "dev": "vite",
