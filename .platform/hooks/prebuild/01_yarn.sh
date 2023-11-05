@@ -1,4 +1,4 @@
 #!/bin/bash
 
-npm i -g yarn
+corepack enable yarn
 yarn
