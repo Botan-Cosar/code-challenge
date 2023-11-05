@@ -5,10 +5,15 @@
     "backend"
   ],
   "scripts": {
+    "build": "concurrently \"npm run frontend-build\" \"npm run backend-build\"",
     "start": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "frontend": "yarn workspace frontend dev",
-    "backend": "yarn workspace backend dev",
+    "dev": "concurrently \"npm run frontend-dev\" \"npm run backend-dev\"",
+    "frontend-dev": "yarn workspace frontend dev",
+    "backend-dev": "yarn workspace backend dev",
+    "frontend": "yarn workspace frontend start",
+    "backend": "yarn workspace backend start",
+    "frontend-build": "yarn workspace frontend build",
+    "backend-build": "yarn workspace backend build",
     "type-check": "yarn workspaces run type-check"
   },
   "dependencies": {

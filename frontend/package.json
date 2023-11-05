@@ -25,6 +25,8 @@
     "@vitejs/plugin-react": "^2.2.0"
   },
   "scripts": {
+    "start": "vite preview --port 5173",
+    "build": "vite build",
     "dev": "vite",
     "type-check": "tsc"
   }

@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "start": "node dist/main.cjs",
+    "build": "esbuild ./src/main.ts --bundle --platform=node --outfile=./dist/main.cjs",
     "dev": "nodemon --ext ts --watch src --exec \"ts-node --esm ./src/main.ts\"",
     "type-check": "tsc"
   },
