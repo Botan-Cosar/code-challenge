@@ -9,4 +9,8 @@ phases:
       - npm run build
 artifacts:
   files:
-    - '**/*'
+    - package.json
+    - backend/dist/**/*
+    - backend/package.json
+    - frontend/dist/**/*
+    - frontend/package.json
