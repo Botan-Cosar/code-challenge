@@ -1,9 +1,15 @@
 version: 0.2
 
 phases:
-  pre_build:
+  pre_install:
+    commands:
+      - npm i -g yarn
+  install:
     commands:
       - yarn
+  build:
+    commands:
+      - yarn build
 artifacts:
   enable-symlinks: yes
   files:
