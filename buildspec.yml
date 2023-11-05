@@ -8,6 +8,9 @@ phases:
     commands:
       - npm run build
 artifacts:
-  enable-symlinks: yes
   files:
-    '**/*'
+    - package.json
+    - backend/dist/*
+    - backend/package.json
+    - frontend/dist/*
+    - frontend/package.json
