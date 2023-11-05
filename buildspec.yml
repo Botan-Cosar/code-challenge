@@ -1,11 +1,9 @@
 version: 0.2
 
 phases:
-  pre_install:
-    commands:
-      - npm i -g yarn
   install:
     commands:
+      - npm i -g yarn
       - yarn
   build:
     commands:
