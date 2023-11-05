@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /var/app/current && yarn
+npm i -g yarn cd /var/app/current && yarn
