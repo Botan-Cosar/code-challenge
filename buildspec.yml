@@ -3,11 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm i -g yarn
-      - yarn
+      - npm i
   build:
     commands:
-      - yarn build
+      - npm run build
 artifacts:
   enable-symlinks: yes
   files:
