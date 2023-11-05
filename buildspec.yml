@@ -10,7 +10,7 @@ phases:
 artifacts:
   files:
     - package.json
-    - backend/dist/*
+    - backend/dist/**/*
     - backend/package.json
-    - frontend/dist/*
+    - frontend/dist/**/*
     - frontend/package.json
